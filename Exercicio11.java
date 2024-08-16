@@ -8,11 +8,11 @@ public class Exercicio11 {
         System.out.println("Digite o código do produto:");
         int cod = scanner.nextInt();
 
-        if (cod == 001) {
+        if (cod == 1) {
             produto = "Parafuso";
-        } else if (cod == 002) {
+        } else if (cod == 2) {
             produto = "Porca";
-        } else if (cod == 003) {
+        } else if (cod == 3) {
             produto = "Prego";
         } else {
             produto = "Diversos";
